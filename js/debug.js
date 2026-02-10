@@ -1,7 +1,7 @@
 // debug.js - Utility for debugging OIDC authentication
 
 // Enable debug mode
-const DEBUG_MODE = false
+const DEBUG_MODE = true
 
 // Debug logger
 export function debugLog(category, message, data) {
