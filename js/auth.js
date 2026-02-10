@@ -10,7 +10,7 @@ const authConfig = {
   redirect_uri: window.location.origin + "/callback.html",
   post_logout_redirect_uri: window.location.origin + "/index.html",
   response_type: "code",
-  scope: "openid profile email", // Adjust scopes as needed
+  scope: "openid", // Adjust scopes as needed
   automaticSilentRenew: true,
   loadUserInfo: true,
 }
