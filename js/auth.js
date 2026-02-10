@@ -14,6 +14,8 @@ const authConfig = {
   scope: "openid email profile", // Adjust scopes as needed
   automaticSilentRenew: false,
   loadUserInfo: true,
+  state: "MY SECURE STATE", // Optional, can be used to prevent CSRF attacks
+
 }
 
 // Create the UserManager using the global Oidc object from the CDN script
