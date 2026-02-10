@@ -5,8 +5,8 @@ import { debugLog, initializeDebugging } from "./debug.js"
 
 // Configure OIDC client
 const authConfig = {
-  authority: "https://<your-oidc-server>", // Replace with your OIDC provider URL
-  client_id: "poc.cli", // Replace with your client ID
+  authority: "https://cognito-idp.us-east-1.amazonaws.com/us-east-1_wvKioS4gk",
+  client_id: "3lplcn5j5kncps0cgektnqfng8",
   redirect_uri: window.location.origin + "/callback.html",
   post_logout_redirect_uri: window.location.origin + "/index.html",
   response_type: "code",
