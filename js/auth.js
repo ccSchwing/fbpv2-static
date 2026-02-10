@@ -5,7 +5,8 @@ import { debugLog, initializeDebugging } from "./debug.js"
 
 // Configure OIDC client
 const authConfig = {
-  authority: "https://cognito-idp.us-east-1.amazonaws.com/us-east-1_wvKioS4gk",
+  // authority: "https://cognito-idp.us-east-1.amazonaws.com/us-east-1_wvKioS4gk",
+  authority: "https://my-fbp.com.auth.us-east-1.amazoncognito.com",
   client_id: "177g7un5bhd5g4n3ed39jp97lo",
   redirect_uri: window.location.origin + "/callback.html",
   post_logout_redirect_uri: window.location.origin + "/index.html",
